@@ -20,8 +20,8 @@ public class MandelbrotSet extends JComponent  {
     private float saturation = 0.65f;
     private double scale = 1;
     private float hueOffset = 1f;
-    private double horizontalOffset = 0.1f;
-    private double verticalOffset = 0.1f;
+    private double horizontalOffset = 0.0f;
+    private double verticalOffset = 0.0f;
     private double horOffInc = 0.1f;
     private double vertOffInc = 0.1f;
     private double viewportMinX = -2.5f;
