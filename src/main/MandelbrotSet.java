@@ -80,8 +80,8 @@ public class MandelbrotSet extends JComponent  {
         cyMin = ((vmy + ((0 / h) * 5))/s)+vO;
         cyMax = ((vmy + ((h / h) * 5))/s)+vO;
 
-        for(double x = 0; x < WIDTH; x++)  {
-            for(double y = 0; y < HEIGHT; y++) {
+        for(int x = 0; x < WIDTH; x++)  {
+            for(int y = 0; y < HEIGHT; y++) {
                 color = calculatePoint((((vmx + ((x / w) * 5))/s)+hO), (((vmy + ((y / h) * 5))/s)+vO));
                 buffer.setRGB((int)x, (int)y, color);
             }
