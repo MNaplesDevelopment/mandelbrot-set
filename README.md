@@ -4,7 +4,7 @@ in the complex plane and is generated using the equation f(z) = z^2 + c, where c
 taking each pixel as a coordinate and plugging it into this equation and seeing how quickly the point blows up. Points that diverge to 
 infinity are not in the set and colored based on how quickly they blow up, points that converge are inside the set and colored black.
 
-You can get a zoom of about e^-11 before reaching a doubles limit. To zoom further more advanced methods must be used.
+You can get a zoom of about e^-11 before reaching a doubles decimal precision limit. To zoom further more advanced methods must be used.
 
 Screenshots: https://imgur.com/a/8GnFv
 
