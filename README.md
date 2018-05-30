@@ -6,9 +6,11 @@ infinity are not in the set and colored based on how quickly they blow up, point
 
 You can get a zoom of about e^-11 before reaching a doubles decimal precision limit. To zoom further more advanced methods must be used.
 
-Screenshots: https://imgur.com/a/8GnFv
+# Screenshots: 
 
-Controls:
+https://imgur.com/a/8GnFv
+
+# Controls:
 
 Arrow Keys: Move around
 
@@ -32,7 +34,7 @@ Z: toggles information
 
 C: Resets program
 
-IMPROVEMENTS:
+# IMPROVEMENTS:
 
 Multi-Threaded
 
