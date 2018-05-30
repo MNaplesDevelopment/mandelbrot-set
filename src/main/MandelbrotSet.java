@@ -26,7 +26,7 @@ public class MandelbrotSet extends JComponent  {
     private double vertOffInc = 0.1f;
     private double viewportMinX = -2.5f;
     private double viewportMinY = -2.5f;
-    private int breakPoint = 16;
+    private int breakPoint = 4;
 
     private double cxMin;
     private double cxMax;
