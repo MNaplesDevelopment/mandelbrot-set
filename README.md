@@ -34,6 +34,8 @@ Z: toggles information
 
 C: Resets program
 
+(I apologize if this controls aren't very intuitive)
+
 # Improvements:
 
 Multi-Threaded
