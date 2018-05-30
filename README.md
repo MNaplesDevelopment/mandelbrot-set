@@ -20,7 +20,7 @@ F and R: decreases and increases the horizontal shift increment. (By a factor of
 
 G and T: decreases and increases the vertical shift increment. (By a factor of 10)
 
-Y and H: decreases and increases the accuracy of how quickly a point diverges. (By a factor of 2)
+Y and H: decreases and increases the accuracy of how quickly a point diverges. (By a factor of 2) (In practice this actually shouldn't change anything)
 
 J and U: decreases and increases the number of interations. (By 25)
 
