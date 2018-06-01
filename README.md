@@ -28,13 +28,13 @@ K and L: changes color
 
 I and O: changes saturation
 
-P: saves and picture of currently rendered image
+P: saves a picture of currently rendered image
 
 Z: toggles information
 
 C: Resets program
 
-(I apologize if this controls aren't very intuitive)
+(I apologize if these controls aren't very intuitive)
 
 # Improvements:
 
