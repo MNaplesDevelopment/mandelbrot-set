@@ -47,7 +47,7 @@ C: Resets program
 
 (I apologize if these controls aren't very intuitive)
 
-# Improvements:
+# Improvements
 
 Multi-Threaded
 
