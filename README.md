@@ -19,7 +19,7 @@ You can get a zoom of about e^-11 before reaching a doubles decimal precision li
 ![9](/imgs/9.png)
 ![10](/imgs/10.png)
 ![11](/imgs/11.png)
-![12](/imgs/12.png)
+![12](/imgs/12.jpg)
 
 # Controls
 
