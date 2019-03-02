@@ -18,14 +18,14 @@ public class MandelbrotSet extends JComponent  {
 
     private int iterations = 50;
     private float saturation = 0.65f;
-    private double scale = 1;
+    private double scale = 1d;
     private float hueOffset = 1f;
-    private double horizontalOffset = 0.0f;
-    private double verticalOffset = 0.0f;
-    private double horOffInc = 0.1f;
-    private double vertOffInc = 0.1f;
-    private double viewportMinX = -2.5f;
-    private double viewportMinY = -2.5f;
+    private double horizontalOffset = 0.0d;
+    private double verticalOffset = 0.0d;
+    private float horOffInc = 0.1f;
+    private float vertOffInc = 0.1f;
+    private double viewportMinX = -2.5d;
+    private double viewportMinY = -2.5d;
     private int breakPoint = 4;
 
     private double cxMin;
@@ -81,7 +81,7 @@ public class MandelbrotSet extends JComponent  {
         cyMax = ((vmy + ((h / h) * 5))/s)+vO;
 
         for(int x = 0; x < WIDTH; x++)  {
-            for(int y = 0; y < HEIGHT; y++) {
+            for(int y = 0; y < HEIGHT; y++) { // A magic line of code that took way too long to figure out
                 color = calculatePoint((((vmx + ((x / w) * 5))/s)+hO), (((vmy + ((y / h) * 5))/s)+vO));
                 buffer.setRGB((int)x, (int)y, color);
             }
